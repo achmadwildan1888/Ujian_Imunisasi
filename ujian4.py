@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 df1 = pd.read_csv('BCG.csv',na_values='n.a')
-df2 = pd.read_csv('DPT.csv',na_values='n.a')
-df3 = pd.read_csv('campak.csv',na_values='n.a')
+df2 = pd.read_csv('campak.csv',na_values='n.a')
+df3 = pd.read_csv('DPT.csv',na_values='n.a')
 df4 = pd.read_csv('polio.csv',na_values='n.a')
 
 df1 = df1.interpolate()
